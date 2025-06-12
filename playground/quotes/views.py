@@ -2,6 +2,9 @@ from django.shortcuts import render
 from django.http import HttpResponse, HttpResponseNotFound
 # Create your views here.
 
+def days_week_with_number(request, day):
+    return HttpResponse(f"{day}")
+
 
 def days_week(request, day):
     
