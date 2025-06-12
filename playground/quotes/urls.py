@@ -2,5 +2,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path("hola-mundo", views.index)
+    path("monday", views.monday),
+    path("tuesday", views.tuesday),
 ]
